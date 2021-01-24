@@ -1,0 +1,523 @@
+MSSubClass: Identifies the type of dwelling involved in the sale.	
+
+        20	1-STORY 1946 & NEWER ALL STYLES
+        30	1-STORY 1945 & OLDER
+        40	1-STORY W/FINISHED ATTIC ALL AGES
+        45	1-1/2 STORY - UNFINISHED ALL AGES
+        50	1-1/2 STORY FINISHED ALL AGES
+        60	2-STORY 1946 & NEWER
+        70	2-STORY 1945 & OLDER
+        75	2-1/2 STORY ALL AGES
+        80	SPLIT OR MULTI-LEVEL
+        85	SPLIT FOYER
+        90	DUPLEX - ALL STYLES AND AGES
+       120	1-STORY PUD (Planned Unit Development) - 1946 & NEWER
+       150	1-1/2 STORY PUD - ALL AGES
+       160	2-STORY PUD - 1946 & NEWER
+       180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
+       190	2 FAMILY CONVERSION - ALL STYLES AND AGES
+
+MSZoning: Identifies the general zoning classification of the sale.
+		
+       8/ A		Agriculture
+       7/ C		Commercial
+       6/ FV		Floating Village Residential
+       5/ I		Industrial
+       4/ RH	Residential High Density
+       3/ RL		Residential Low Density
+       2/ RP		Residential Low Density Park 
+       1/ RM	Residential Medium Density
+	
+LotFrontage: Linear feet of street connected to property
+
+LotArea: Lot size in square feet
+
+Street: Type of road access to property
+
+       2/Grvl	Gravel	
+       1/Pave	Paved
+       	
+Alley: Type of alley access to property
+
+      2/  Grvl	Gravel
+      1/  Pave	Paved
+      0/ NA 	No alley access
+		
+LotShape: General shape of property
+
+       4/ Reg	Regular	
+       3/ IR1		Slightly irregular
+       2/ IR2	Moderately Irregular
+       1/ IR3		Irregular
+       
+LandContour: Flatness of the property
+
+       4/ Lvl	Near Flat/Level	
+       3/ Bnk	Banked - Quick and significant rise from street grade to building
+       2/ HLS	Hillside - Significant slope from side to side
+       1/ Low	Depression
+		
+Utilities: Type of utilities available
+		
+       4/ AllPub	All public Utilities (E,G,W,& S)	
+       3/ NoSewr	Electricity, Gas, and Water (Septic Tank)
+       2/ NoSeWa	Electricity and Gas Only
+       1/ ELO	Electricity only	
+	
+LotConfig: Lot configuration
+
+       5/ Inside	Inside lot
+       4/ Corner	Corner lot
+       3/ CulDSac	Cul-de-sac
+       2/ FR2	Frontage on 2 sides of property
+       1/ FR3	Frontage on 3 sides of property
+	
+LandSlope: Slope of property
+		
+       3/ Gtl	Gentle slope
+       2/ Mod	Moderate Slope	
+       1/ Sev	Severe Slope
+	
+Neighborhood: Physical locations within Ames city limits
+
+       25/ Blmngtn	Bloomington Heights
+       24/ Blueste	Bluestem
+       23/ BrDale	Briardale
+       22/ BrkSide	Brookside
+       21/ ClearCr	Clear Creek
+       20/ CollgCr	College Creek
+       19/ Crawfor	Crawford
+       18/ Edwards	Edwards
+       17/ Gilbert	Gilbert
+       16/ IDOTRR	Iowa DOT and Rail Road
+       15/ MeadowV	Meadow Village
+       14/  Mitchel	Mitchell
+       13/ Names	North Ames
+       12/ NoRidge	Northridge
+       11/ NPkVill	Northpark Villa
+       10/ NridgHt	Northridge Heights
+       9/ NWAmes	Northwest Ames
+       8/  OldTown	Old Town
+       7/ SWISU	South & West of Iowa State University
+       6/ Sawyer	Sawyer
+       5/ SawyerW	Sawyer West
+       4/ Somerst	Somerset
+       3/ StoneBr	Stone Brook
+       2/ Timber	Timberland
+       1/ Veenker	Veenker
+			
+Condition1: Proximity to various conditions
+	
+       9/  Artery	Adjacent to arterial street
+       8/ Feedr	Adjacent to feeder street	
+       7/ Norm	Normal	
+       6/ RRNn	Within 200' of North-South Railroad
+       5/ RRAn	Adjacent to North-South Railroad
+       4/ PosN	Near positive off-site feature--park, greenbelt, etc.
+       3/ PosA	Adjacent to postive off-site feature
+       2/ RRNe	Within 200' of East-West Railroad
+       1/ RRAe	Adjacent to East-West Railroad
+	
+Condition2: Proximity to various conditions (if more than one is present)
+		
+       9/  Artery	Adjacent to arterial street
+       8/ Feedr	Adjacent to feeder street	
+       7/ Norm	Normal	
+       6/ RRNn	Within 200' of North-South Railroad
+       5/ RRAn	Adjacent to North-South Railroad
+       4/ PosN	Near positive off-site feature--park, greenbelt, etc.
+       3/ PosA	Adjacent to postive off-site feature
+       2/ RRNe	Within 200' of East-West Railroad
+       1/ RRAe	Adjacent to East-West Railroad
+	
+BldgType: Type of dwelling
+		
+       5/ 1Fam	Single-family Detached	
+       4/ 2FmCon	Two-family Conversion; originally built as one-family dwelling
+       3/ Duplx	Duplex
+       2/ TwnhsE	Townhouse End Unit
+       1/ TwnhsI	Townhouse Inside Unit
+	
+HouseStyle: Style of dwelling
+	
+       18 1Story	One story
+       7/ 1.5Fin	One and one-half story: 2nd level finished
+       6/  1.5Unf	One and one-half story: 2nd level unfinished
+       5/ 2Story	Two story
+       4/ 2.5Fin	Two and one-half story: 2nd level finished
+       3/ 2.5Unf	Two and one-half story: 2nd level unfinished
+       2/ SFoyer	Split Foyer
+       1/ SLvl	Split Level
+	
+OverallQual: Rates the overall material and finish of the house
+
+       10	Very Excellent
+       9	Excellent
+       8	Very Good
+       7	Good
+       6	Above Average
+       5	Average
+       4	Below Average
+       3	Fair
+       2	Poor
+       1	Very Poor
+	
+OverallCond: Rates the overall condition of the house
+
+       10	Very Excellent
+       9	Excellent
+       8	Very Good
+       7	Good
+       6	Above Average	
+       5	Average
+       4	Below Average	
+       3	Fair
+       2	Poor
+       1	Very Poor
+		
+YearBuilt: Original construction date
+
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+
+RoofStyle: Type of roof
+
+       6/ Flat	Flat
+       5/ Gable	Gable
+       4/ Gambrel	Gabrel (Barn)
+       3/ Hip	Hip
+       2/ Mansard	Mansard
+       1/ Shed	Shed
+		
+RoofMatl: Roof material
+
+       8/ ClyTile	Clay or Tile
+       7/ CompShg	Standard (Composite) Shingle
+       6/ Membran	Membrane
+       5/  Metal	Metal
+       4/  Roll	Roll
+       3/ Tar&Grv	Gravel & Tar
+       2/ WdShake	Wood Shakes
+       1/ WdShngl	Wood Shingles
+		
+Exterior1st: Exterior covering on house
+
+       17/ AsbShng	Asbestos Shingles
+       16/ AsphShn	Asphalt Shingles
+       15/ BrkComm	Brick Common
+       14/ BrkFace	Brick Face
+       13/ CBlock	Cinder Block
+       12/ CemntBd	Cement Board
+       11/ HdBoard	Hard Board
+       10/ ImStucc	Imitation Stucco
+       9/ MetalSd	Metal Siding
+       8/ Other	Other
+       7/ Plywood	Plywood
+       6/ PreCast	PreCast	
+       5/ Stone	Stone
+       4/ Stucco	Stucco
+       3/ VinylSd	Vinyl Siding
+       2/ Wd Sdng	Wood Siding
+       1/ WdShing	Wood Shingles
+	
+Exterior2nd: Exterior covering on house (if more than one material)
+
+       17/ AsbShng	Asbestos Shingles
+       16/ AsphShn	Asphalt Shingles
+       15/ BrkComm	Brick Common
+       14/ BrkFace	Brick Face
+       13/ CBlock	Cinder Block
+       12/ CemntBd	Cement Board
+       11/ HdBoard	Hard Board
+       10/ ImStucc	Imitation Stucco
+       9/ MetalSd	Metal Siding
+       8/ Other	Other
+       7/ Plywood	Plywood
+       6/ PreCast	PreCast	
+       5/ Stone	Stone
+       4/ Stucco	Stucco
+       3/ VinylSd	Vinyl Siding
+       2/ Wd Sdng	Wood Siding
+       1/ WdShing	Wood Shingles
+	
+MasVnrType: Masonry veneer type
+
+        4/ BrkCmn	Brick Common
+        3/ BrkFace	Brick Face
+        2/ CBlock	Cinder Block
+        1/ Stone	 Stone
+        0/ None	None
+	
+MasVnrArea: Masonry veneer area in square feet
+
+ExterQual: Evaluates the quality of the material on the exterior 
+		
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+		
+ExterCond: Evaluates the present condition of the material on the exterior
+		
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+		
+Foundation: Type of foundation
+		
+        6/ BrkTil	Brick & Tile
+        5/ CBlock	Cinder Block
+        4/ PConc	Poured Contrete	
+        3/ Slab		Slab
+        2/ Stone		Stone
+        1/ Wood	Wood
+		
+BsmtQual: Evaluates the height of the basement
+
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+       0/ NA	No Basement
+		
+Evaluates the general condition of the basement
+
+        5/ Ex	Excellent
+        4/ Gd	Good
+        3/ TA	Typical - slight dampness allowed
+        2/ Fa		Fair - dampness or some cracking or settling
+        1/ Po		Poor - Severe cracking, settling, or wetness
+        0/ NA	No Basement
+	
+BsmtExposure: Refers to walkout or garden level walls
+
+        4/ Gd	Good
+        3/ Av	Average Exposure (split levels or foyers typically score average or above)	
+        2/ Mn	Mimimum Exposure
+        1/ No	No Exposure
+        0/ NA	No Basement
+	
+BsmtFinType1: Rating of basement finished area
+
+       6/ GLQ	Good Living Quarters
+       5/ ALQ	Average Living Quarters
+       4/ BLQ	Below Average Living Quarters	
+       3/ Rec	Average Rec Room
+       2/ LwQ	Low Quality
+       1/ Unf	Unfinshed
+       0/  NA	No Basement
+		
+BsmtFinSF1: Type 1 finished square feet
+
+BsmtFinType2: Rating of basement finished area (if multiple types)
+
+       6/ GLQ	Good Living Quarters
+       5/ ALQ	Average Living Quarters
+       4/ BLQ	Below Average Living Quarters	
+       3/ Rec	Average Rec Room
+       2/ LwQ	Low Quality
+       1/ Unf	Unfinshed
+       0/  NA	No Basement
+
+BsmtFinSF2: Type 2 finished square feet
+
+BsmtUnfSF: Unfinished square feet of basement area
+
+TotalBsmtSF: Total square feet of basement area
+
+Heating: Type of heating
+		
+       6/  Floor	Floor Furnace
+       5/  GasA	Gas forced warm air furnace
+       4/  GasW	Gas hot water or steam heat
+       3/  Grav	Gravity furnace	
+       2/  OthW	Hot water or steam heat other than gas
+       1/  Wall	Wall furnace
+		
+HeatingQC: Heating quality and condition
+
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+		
+CentralAir: Central air conditioning
+
+       1/  Y	Yes
+       0/ N	No
+		
+Electrical: Electrical system
+
+       5/ SBrkr	Standard Circuit Breakers & Romex
+       4/ FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
+       3/ FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
+       2/ FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
+       1/ Mix	Mixed
+		
+1stFlrSF: First Floor square feet
+ 
+2ndFlrSF: Second floor square feet
+
+LowQualFinSF: Low quality finished square feet (all floors)
+
+GrLivArea: Above grade (ground) living area square feet
+
+BsmtFullBath: Basement full bathrooms
+
+BsmtHalfBath: Basement half bathrooms
+
+FullBath: Full bathrooms above grade
+
+HalfBath: Half baths above grade
+
+Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
+
+Kitchen: Kitchens above grade
+
+KitchenQual: Kitchen quality
+
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+       	
+TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+
+Functional: Home functionality (Assume typical unless deductions are warranted)
+
+       8/ Typ	Typical Functionality
+       7/ Min1	Minor Deductions 1
+       6/ Min2	Minor Deductions 2
+       5/ Mod	Moderate Deductions
+       4/ Maj1	Major Deductions 1
+       3/ Maj2	Major Deductions 2
+       2/ Sev	Severely Damaged
+       1/ Sal		Salvage only
+		
+Fireplaces: Number of fireplaces
+
+FireplaceQu: Fireplace quality
+
+       5/ Ex		Excellent - Exceptional Masonry Fireplace
+       4/ Gd	Good - Masonry Fireplace in main level
+       3/ TA		Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
+       2/ Fa		Fair - Prefabricated Fireplace in basement
+       1/ Po		Poor - Ben Franklin Stove
+       0/ NA	No Fireplace
+		
+GarageType: Garage location
+		
+       7/ 2Types	More than one type of garage
+       6/ Attchd	Attached to home
+       5/ Basment	Basement Garage
+       4/ BuiltIn	Built-In (Garage part of house - typically has room above garage)
+       3/ CarPort	Car Port
+       2/ Detchd	Detached from home
+       1/ NA		No Garage
+		
+GarageYrBlt: Year garage was built
+		
+GarageFinish: Interior finish of the garage
+
+       3/ Fin	Finished
+       2/ RFn	Rough Finished	
+       1/ Unf	Unfinished
+       0/ NA	No Garage
+		
+GarageCars: Size of garage in car capacity
+
+GarageArea: Size of garage in square feet
+
+GarageQual: Garage quality
+
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+       0/ NA	No Garage
+		
+GarageCond: Garage condition
+
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       1/ Po		Poor
+       0/ NA	No Garage
+		
+PavedDrive: Paved driveway
+
+       3/ Y		Paved 
+       2/ P		Partial Pavement
+       1/ N		Dirt/Gravel
+		
+WoodDeckSF: Wood deck area in square feet
+
+OpenPorchSF: Open porch area in square feet
+
+EnclosedPorch: Enclosed porch area in square feet
+
+3SsnPorch: Three season porch area in square feet
+
+ScreenPorch: Screen porch area in square feet
+
+PoolArea: Pool area in square feet
+
+PoolQC: Pool quality
+		
+       5/ Ex		Excellent
+       4/ Gd	Good
+       3/ TA		Average/Typical
+       2/ Fa		Fair
+       NA		No Pool
+		
+Fence: Fence quality
+		
+       4/ GdPrv	Good Privacy
+       3/ MnPrv	Minimum Privacy
+       2/ GdWo	Good Wood
+       1/ MnWw	Minimum Wood/Wire
+       0/ NA	No Fence
+	
+MiscFeature: Miscellaneous feature not covered in other categories
+		
+       5/ Elev	Elevator
+       4/ Gar2	2nd Garage (if not described in garage section)
+       3/ Othr	Other
+       2/ Shed	Shed (over 100 SF)
+       1/ TenC	Tennis Court
+       0/ NA	None
+		
+MiscVal: $Value of miscellaneous feature
+
+MoSold: Month Sold (MM)
+
+YrSold: Year Sold (YYYY)
+
+SaleType: Type of sale
+		
+       10/ WD 	Warranty Deed - Conventional
+       9/ CWD	Warranty Deed - Cash
+       8/ VWD	Warranty Deed - VA Loan
+       7/ New	Home just constructed and sold
+       6/ COD	Court Officer Deed/Estate
+       5/ Con	Contract 15% Down payment regular terms
+       4/ ConLw	Contract Low Down payment and low interest
+       3/ ConLI	Contract Low Interest
+       2/ ConLD	Contract Low Down
+       1/ Oth	Other
+		
+SaleCondition: Condition of sale
+
+       6/ Normal	Normal Sale
+       5/ Abnorml	Abnormal Sale -  trade, foreclosure, short sale
+       4/  AdjLand	Adjoining Land Purchase
+       3/ Alloca	Allocation - two linked properties with separate deeds, typically condo with a garage unit	
+       2/ Family	Sale between family members
+       1/ Partial	Home was not completed when last assessed (associated with New Homes)
