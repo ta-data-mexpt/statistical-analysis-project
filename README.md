@@ -4,7 +4,7 @@
 
 ## Overview
 
-El objetivo de este proyecto ha sido analizar si la presencia del delito en la Ciudad de México se encuentra relacionado con el nivel de desarrollo social de cada alcaldía. Para ello se recurrió a la base datos abiertos de la Fiscalía General de Justicia y el Índice de Desarrollo Social eleborado por la Secretaría de Inlusión y Bienestar. La hipótesis de este proyecto es que un mayor Índice de Desarrollo implicaria menor presencia del delito. 
+El objetivo de este proyecto ha sido analizar si la presencia del delito en la Ciudad de México se encuentra relacionado con el nivel de desarrollo social de cada alcaldía. Para ello se recurrió a la base datos abiertos de la Fiscalía General de Justicia y el Índice de Desarrollo Social eleborado por la Secretaría de Inclusión y Bienestar. La hipótesis de este proyecto es que un mayor Índice de Desarrollo implicaria menor presencia del delito. 
 
 ## Datos
 
