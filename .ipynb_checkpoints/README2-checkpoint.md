@@ -1,0 +1,4 @@
+This project aims to do a statistical analysis of the relationship between educational gaps and poverty indexes. (which represents the continuation of my data viz project: https://github.com/SofiaAceves94/project-dataviz)
+I added new data regarding the multidimensional poverty index, which I retrieved from: https://www.coneval.org.mx/coordinacion/entidades/Paginas/inicioent.aspx
+Here is the link to how I did the analysis in python. In the comments, you can get to know the different insights I came up with while doing the analysis (Análisis Educación e Indicadores de Pobreza.ipynb):
+https://drive.google.com/drive/folders/1xJZiYJaYoVVKMwbfs_YRoiEY-wvPVNTU?usp=sharing
